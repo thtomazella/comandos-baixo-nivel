@@ -1,6 +1,6 @@
 global _start
 section .data
-message: 'hello, wordl!', 10
+message: db 'hello, wordl!', 10
 section .text
 _start:
   mov rax, 1          ; Numero de chamada de sistema deve ser armazendado em rax
