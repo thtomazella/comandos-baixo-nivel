@@ -9,7 +9,7 @@ Instalação Assembly
 - [x] Nano - Editor de texto
 
 Compilando
-$ nasm -felf64 hello.asm -o hello.o
-$ ld -o hello hello.o
-$ chmod u+x hello
-$ ./hello
+-$ nasm -felf64 hello.asm -o hello.o
+-$ ld -o hello hello.o
+-$ chmod u+x hello
+-$ ./hello
