@@ -13,3 +13,7 @@ Compilando
 - ld -o hello hello.o
 - chmod u+x hello
 - ./hello
+
+C
+- gcc hello.c -o hello
+- ./hello
