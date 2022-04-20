@@ -8,12 +8,12 @@ Instalação Assembly
 - [x] GDB - Depurador
 - [x] Nano - Editor de texto
 
-Compilando
+Assembly - Compilando
 - nasm -felf64 hello.asm -o hello.o
 - ld -o hello hello.o
 - chmod u+x hello
 - ./hello
 
-C
+C - Compilando
 - gcc hello.c -o hello
 - ./hello
