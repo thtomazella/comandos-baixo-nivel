@@ -8,3 +8,7 @@ _start:
   mov rsi, message    ; argumento #2 em rsi: onde começa a string
   mov rdx, 14         ; argumento #3 em rdx: quantos bytes deve ser escritos   
   syscall             ; faz uma chamada de sistema
+  
+  mov rax, 60         ; faz a chamada de saída do syscall
+  xor rdi, rdi
+  syscall
